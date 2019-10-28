@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1> HEADING!</h1>
+    <p> some user name {{indexUsr}} </p>
+    {% for i in indexLst %}
+        <p> {{i}} </p>
+    {% endfor %}
+    <p> HELLO WORLD </p>
+{% endblock %}
+    
