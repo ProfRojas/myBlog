@@ -1,2 +1,4 @@
 from app import myFlaskObj
-myFlaskObj.run()
+
+if __name__ == '__main__':
+    myFlaskObj.run()
